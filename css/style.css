@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
+
+/* Estilos Globales*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+    font-family: 'Be Vietnam Pro', sans-serif;   
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+a{
+    text-decoration: none;
+
+}
+
+  /* ASIDE */
+  aside{
+      background-color: rgb(24, 89, 131);
+      border: 1px black solid;
+      width: 15%;
+      height: auto;
+  }
+
+  aside div{
+      color: white;
+  }
+
+  .logotipo figure img{
+      width: 100%;
+      padding: 40px 30px;
+  }
+
+.option-menu{
+    font-size: 12px;
+}
+
+.option-menu h2{
+    padding: 20px 30px;
+}
+
+.option-menu h2:hover{
+    background-color: aliceblue;
+    color: black;
+}
+
+.input-menu{
+    display: list-item;
+    margin-top: 30px;
+    padding: 10px 30px;
+    width: auto;
+}
+
+.input-menu div{
+    background-color: white;
+    border-radius: 10px;
+    margin: 15px 0px;
+    text-align: center;
+    padding: 0px;
+    height: auto;
+    box-shadow: 0 20px 20px 20px rgba(0, 0, 0, 0.1);
+}
+
+.input-menu div a{
+    color: rgb(24, 89, 131);
+    font-size: 20px;
+    text-align: center;
+    line-height: 40px;
+    font-weight: bold;
+    font-style: italic;
+}
+  /* Contenedor principal */
+
+section{
+    width: 85%;
+    background-image: url(../images/backgrund.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: top;
+    background-size: contain;
+    display: flex;
+}
+
+/* Contenedor de informacion */
+.container-info{
+    width: 40%;
+    margin: 80px 40px 80px 40px;
+    padding: 40px 20px;
+}
+.fisrt-title{
+    color: black;
+}
+
+.title{
+    font-size: 80px;
+    font-family: 'Secular One', sans-serif;
+    line-height: 75px;
+    color: rgb(24, 89, 131);
+}
+
+.description{
+    font-size: 18px;
+}
+
+/* Caja para contacto de email */
+.contact{
+    height: 70px;
+    margin-top: 15px;
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-email{
+    border: 1px rgb(216, 209, 209) solid;
+    width: 70%;
+    height: 100%;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, .2);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.box-submit{
+    align-items: flex-end;
+    padding: 0px;
+    margin-top: 15px;
+}
+
+.input-email{
+    border: 1px black solid;
+    width: 100%;
+    font-size: 15px;
+    color: rgb(24, 89, 131);
+    outline: none;
+    border-color: white;
+    font-style: italic;
+    box-sizing: content-box;
+}
+
+.input-email:focus{
+    border-color: white;
+}
+
+.input-submit{
+    border: 1px black solid;
+    background-color:  rgb(24, 89, 131);
+    color: white;
+    padding: 12px 25px;
+    border-radius: 10px;
+}
+
+/* Contenedor de imagen e info de contacto*/
+
+.container-image{
+    width: 55%;
+    height: 100%;
+    display: block;
+}
+
+.container-image figure img{
+    width: 80%;
+    margin: 10px 50px;
+    padding: 10px ;
+}
+
+.number-contact{
+    font-weight: bold;
+    width: 200px;
+    margin-top: -10px;
+    margin-left: 350px;
+}
